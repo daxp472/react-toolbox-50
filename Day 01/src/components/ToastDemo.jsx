@@ -16,18 +16,21 @@ function ToastDemo() {
   };
 
   return (
-    <div className="toast-demo">
-      <h2>Toast Notifications</h2>
-      <div className="button-group">
-        <Button onClick={handleSuccess} variant="primary">
-          Show Success
-        </Button>
-        <Button onClick={handleError} variant="danger">
-          Show Error
-        </Button>
-        <Button onClick={handleLoading} variant="info">
-          Show Loading
-        </Button>
+    <div className='main'>
+      <h1>My Toast Demo</h1>
+      <div className="toast-demo">
+        <h2>Toast Notifications</h2>
+        <div className="button-group">
+          <Button onClick={handleSuccess} variant="primary">
+            Show Success
+          </Button>
+          <Button onClick={handleError} variant="danger">
+            Show Error
+          </Button>
+          <Button onClick={handleLoading} variant="info">
+            Show Loading
+          </Button>
+        </div>
       </div>
     </div>
   );
