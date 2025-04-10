@@ -1,6 +1,6 @@
 import React from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import '../styles/CopyButton.css';
+import '../styles/App.css';
 
 const CopyButton = ({ text, onCopy }) => {
   return (
