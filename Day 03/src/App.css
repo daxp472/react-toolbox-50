@@ -1,5 +1,5 @@
 .app-container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 40px auto;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -20,8 +20,6 @@
   100% { transform: rotate(360deg); }
 }
 
-
-/* src/App.css (add to existing) */
 .nav-menu {
   display: flex;
   gap: 15px;
@@ -44,4 +42,52 @@
 .nav-item:hover {
   background: #dfe6e9;
   border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.dropdown-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dropdown-btn:hover {
+  background: #2980b9;
+}
+
+.icon-dropdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  background: #ecf0f1;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+  transition: transform 0.2s;
+}
+
+.icon-item:hover {
+  transform: scale(1.1);
 }

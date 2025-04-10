@@ -35,7 +35,7 @@ function App() {
         </button>
       </div>
 
-      {active weekly === 'fontAwesome' && (
+      {activeDropdown === 'fontAwesome' && (
         <IconDropdown pack="fontAwesome" />
       )}
       {activeDropdown === 'material' && (
