@@ -78,15 +78,17 @@ Follow these steps to try it yourself:
 	```bash
     cd Day-02
     ```
-    
+
 3. **Install Dependencies**:
 	```bash
-npm install react-copy-to-clipboard --legacy-peer-deps
-```
+    npm install react-copy-to-clipboard --legacy-peer-deps
+    ```
+
 4. **Start the App**:
 	```bash
-npm start
-```
+    npm start
+    ```
+
 5. **Open Your Browser**:
 	Open your browser at http://localhost:3000 to see it in action.
 
@@ -94,8 +96,9 @@ npm start
 
 1. **Install the Library**:
 	```bash
-npm install react-copy-to-clipboard --legacy-peer-deps
-```
+    npm install react-copy-to-clipboard --legacy-peer-deps
+    ```
+    
 2. **Copy the CopyButton Component**:
 	Drop it into your project and pass it text to copy.
 3. **Add Some Style**:
