@@ -76,8 +76,9 @@ Follow these steps to try it yourself:
 	* Clone this repo: `git clone <repo-url>` or download the ZIP file.
 2. **Navigate to the Folder**:
 	```bash
-cd Day-02
-```
+    cd Day-02
+    ```
+    
 3. **Install Dependencies**:
 	```bash
 npm install react-copy-to-clipboard --legacy-peer-deps
