@@ -4,3 +4,4 @@
 
 
 Day 01 -- react-hot-toast
+Day 02 -- react-copy-to-clipboard
