@@ -1,47 +1,21 @@
+/* src/App.css */
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .app-container {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 0 auto;
+  padding: 40px 20px;
   text-align: center;
   font-family: Arial, sans-serif;
-}
-
-.icon-examples {
+  flex-grow: 1;
   display: flex;
-  gap: 20px;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 20px;
-}
-
-.spin {
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  100% { transform: rotate(360deg); }
-}
-
-.nav-menu {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  padding: 10px;
-  background: #ecf0f1;
-  border-radius: 8px;
-}
-
-.nav-item {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  text-decoration: none;
-  color: #2c3e50;
-  padding: 8px 12px;
-  transition: background 0.3s;
-}
-
-.nav-item:hover {
-  background: #dfe6e9;
-  border-radius: 4px;
 }
 
 .button-group {
@@ -85,9 +59,60 @@
   padding: 10px;
   background: white;
   border-radius: 4px;
+  cursor: pointer;
   transition: transform 0.2s;
 }
 
 .icon-item:hover {
   transform: scale(1.1);
+}
+
+.app-footer {
+  text-align: center;
+  padding: 10px;
+  background: #2c3e50;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.app-footer a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
+
+.icon-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  text-align: center;
+}
+
+.popup-content {
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-size: 14px;
 }
