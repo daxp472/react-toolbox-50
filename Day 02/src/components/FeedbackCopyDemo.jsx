@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CopyButton from './CopyButton';
+import useCopy from '../hooks/useCopy';
 
 const FeedbackCopyDemo = () => {
   const textToCopy = 'Secret code: 12345';
-  const [copied, setCopied] = useState(false);
-
-  const handleCopy = () => {
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
-  };
+  const { copied, handleCopy } = useCopy();
 
   return (
     <div className="demo">
