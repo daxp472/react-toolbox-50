@@ -1,8 +1,23 @@
+.app{
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 350px;
+  margin-bottom: 50px;
+  gap: -5px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
 .app-container {
-  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .demo-section {

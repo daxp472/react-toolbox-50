@@ -6,6 +6,7 @@ import FeedbackCopyDemo from './components/FeedbackCopyDemo';
 
 function App() {
   return (
+    <div className="app">
     <div className="app-container">
       <h1>React Clipboard Demo</h1>
       <section className="demo-section">
@@ -13,6 +14,7 @@ function App() {
         <InputCopyDemo />
         <FeedbackCopyDemo />
       </section>
+    </div>
     </div>
   );
 }
